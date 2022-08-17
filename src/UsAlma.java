@@ -11,12 +11,12 @@ public class UsAlma {
         }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         int b,e;
         System.out.println("tabani : ");
-        b= scanner.nextInt();
+        b= input.nextInt();
         System.out.println("usu : ");
-        e = scanner.nextInt();
+        e = input.nextInt();
         System.out.println(pow(b,e));
 
 
